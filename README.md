@@ -9,7 +9,7 @@ An intelligent agent that analyzes 10-K company filings to examine the potential
   <img src="./data/output/tax_etr_2024.png" alt="Tax and ETR in 2024" width="800" />
 
   <p style="color:gray; font-style: italic; margin-top: 0.5em;">
-    This is the caption of the image.
+    Matplotlib for Charting & ChatGPT for Generating the Background Image
   </p>
 
 </div>
