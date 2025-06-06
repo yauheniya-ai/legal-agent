@@ -1,0 +1,15 @@
+langchain 
+langchain-google-genai 
+langchain-community 
+langchain-core 
+langchain-text-splitters 
+faiss-cpu
+langgraph
+pypdf
+python-dotenv 
+pandas
+openpyxl
+matplotlib
+jupyter 
+ipykernel 
+tabulate
