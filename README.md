@@ -4,11 +4,16 @@ An intelligent agent that analyzes 10-K company filings to examine the potential
 
 ## 📊 Analysis Results
 
-| Company   | ETR 2024 (%) | US Tax 2024 ($M) | Foreign Tax 2024 ($M) |
-|-----------|--------------|-------------------|----------------------|
-| Alphabet  | 16.4         | 22,485           | 2,468               |
-| Microsoft | 18.2         | 14,531           | 9,858               |
-| NVIDIA    | 12.0         | 6,045            | 502                 |
+<div style="text-align: center;">
+
+  <img src="./data/output/tax_etr_2024.png" alt="Tax and ETR in 2024" width="800" />
+
+  <p style="color:gray; font-style: italic; margin-top: 0.5em;">
+    This is the caption of the image.
+  </p>
+
+</div>
+
 
 ## 🚀 Quick Start
 
@@ -19,8 +24,8 @@ An intelligent agent that analyzes 10-K company filings to examine the potential
 ### Installation
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd ai-legal-agent
+git clone https://github.com/yauheniya-ai/legal-agent
+cd legal-agent
 
 # Create virtual environment (recommended: use uv for speed)
 uv venv --python=3.12
@@ -28,12 +33,11 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 uv pip install -r requirements.txt
-# or: pip install -r requirements.txt
 ```
 
 ### Usage
-1. Set your Google Gemini API key as an environment variable
-2. Open `legal-agent.ipynb` in Jupyter
+1. Rename `.env.example` to `.env` and set your Google Gemini API key 
+2. Open `legal-agent.ipynb` in your IDE or in Jupyter
 3. Run all cells to process the 10-K documents and generate analysis
 
 ## 📁 Project Structure
@@ -51,7 +55,7 @@ uv pip install -r requirements.txt
 ## 🔧 Key Technologies
 
 - **LangChain**: Orchestration framework
-- **LangGraph**: Complex workflow management
+- **LangGraph**: Workflow management
 - **Google Gemini**: Language model (2.0-flash & 2.5-pro-preview)
 - **FAISS**: Vector similarity search
 - **PyPDF**: PDF document processing
@@ -63,7 +67,7 @@ uv pip install -r requirements.txt
 - **Intelligent Retrieval**: Company-specific information extraction
 - **Memory-Powered Reports**: Generates comprehensive analysis with citations
 - **Structured Data Extraction**: Precise financial metrics extraction
-- **Visualization**: Tax burden and ETR analysis charts
+- **Visualization**: Tax burden and ETR analysis chart
 
 ## 🎯 Use Cases
 
@@ -75,8 +79,8 @@ uv pip install -r requirements.txt
 ## 📚 Tutorial Series
 
 This project is part of a three-part tutorial series:
-- **Part 1**: Introduction to LangChain and classification/extraction
-- **Part 2**: Implementing RAG (Retrieval-Augmented Generation)
+- **Part 1**: [Introduction to LangChain and classification/extraction](https://github.com/yauheniya-ai/langchain-intro)
+- **Part 2**: [Implementing RAG (Retrieval-Augmented Generation)](https://github.com/yauheniya-ai/langchain-rag)
 - **Part 3**: Building the complete AI Legal Agent (this project)
 
 ## ⚖️ Pillar Two OECD Reform
@@ -85,12 +89,12 @@ The Pillar Two reform establishes a global minimum tax of 15% for multinational 
 
 ## 📄 License
 
-[Include your license information here]
+The MIT License permits free use, modification, and distribution of software with attribution.
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
----
+## 📚 Further Information
 
-**Happy agent development!** 🤖⚖️
+There is a detailed [article on Medium]() explaining the implementation steps.
