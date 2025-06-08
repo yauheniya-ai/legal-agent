@@ -97,4 +97,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📚 Further Information
 
-There is a detailed [article on Medium]() explaining the implementation steps.
+There is a detailed [article on Medium](https://medium.com/@yauheniya.ai/building-an-ai-legal-agent-how-to-analyze-big-techs-tax-strategies-in-minutes-not-hours-1791dec1cfba) explaining the implementation steps.
