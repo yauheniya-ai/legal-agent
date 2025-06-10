@@ -80,7 +80,7 @@ uv pip install -r requirements.txt
 
 This project is part of a three-part tutorial series:
 - **Part 1**: [Introduction to LangChain and classification/extraction](https://github.com/yauheniya-ai/langchain-intro)
-- **Part 2**: [Implementing RAG (Retrieval-Augmented Generation)](https://github.com/yauheniya-ai/langchain-rag)
+- **Part 2**: [Implementing Retrieval-Augmented Generation (RAG)](https://github.com/yauheniya-ai/langchain-rag)
 - **Part 3**: Building the complete AI Legal Agent (this project)
 
 ## ⚖️ Pillar Two OECD Reform
